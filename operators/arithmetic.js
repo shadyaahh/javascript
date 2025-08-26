@@ -1,13 +1,16 @@
+//addition
 let a = 10;
 let b = 2;
 
 console.log("a + b =",a + b);
 
+//substraction
 let c=34;
 let d = 67;
 
 console.log("c-d=",c-d);
 
+//multiplication
 let e=12;
 let f=4;
 
