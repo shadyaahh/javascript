@@ -1,0 +1,4 @@
+let text = "hello";
+console.log(text.charAt(3));
+
+
