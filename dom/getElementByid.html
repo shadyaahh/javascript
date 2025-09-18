@@ -1,0 +1,22 @@
+<!-- getelementby id in a js methods used to select in html element by id attribut -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="mainHeading">welcome!</h1>
+    <button onclick="changeHeading()">change Heading</button>
+
+    <script>
+        function changeHeading(){
+            //use getElementBy  Id to access the heading
+            const Heading= document.getElementById("mainHeading");
+            Heading.textContent = "Hello, you clicked the button!"
+
+                }
+    </script>
+</body>
+</html>
