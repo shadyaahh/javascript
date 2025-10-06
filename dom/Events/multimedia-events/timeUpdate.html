@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio id="audioTimedate" controls>
+         <source src="" type="">
+    </audio>
+    <p id="timeotpt">current time:0</p>
+    <script>
+        const audioTimedate =document.getElementById("audioUpdate");
+        const timeotpt = document.getElementById("timeotpt");
+
+
+        audioTimedate.addEventListener("audioTimeUpate");
+        timeotpt.textContent ="current time: "+ audioTimedate.currentTime.toFixed(2);
+    </script>
+</body>
+</html>
